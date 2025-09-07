@@ -1,0 +1,9 @@
+
+[
+  { "id": 1, "companyName": "Innovate Inc.", "churnRisk": 0.85, "mrr": 5000, "accountManager": "John Doe" },
+  { "id": 2, "companyName": "Synergy Corp.", "churnRisk": 0.72, "mrr": 3200, "accountManager": "Jane Smith" },
+  { "id": 3, "companyName": "Apex Solutions", "churnRisk": 0.65, "mrr": 8000, "accountManager": "Peter Jones" },
+  { "id": 4, "companyName": "Quantum Leap", "churnRisk": 0.45, "mrr": 12000, "accountManager": "John Doe" },
+  { "id": 5, "companyName": "Stellar Dynamics", "churnRisk": 0.21, "mrr": 2500, "accountManager": "Jane Smith" },
+  { "id": 6, "companyName": "Momentum Co.", "churnRisk": 0.15, "mrr": 15000, "accountManager": "Emily White" }
+]
