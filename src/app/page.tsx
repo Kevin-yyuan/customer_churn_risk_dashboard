@@ -2,7 +2,8 @@ import ClientTable from '@/components/ClientTable';
 import ChurnRiskChart from '@/components/ChurnRiskChart';
 import StatCard from '@/components/StatCard';
 import clientData from '@/data.json';
-import { Box, Container, Grid, Typography } from '@mui/material';
+import { Box, Container, Grid, Typography, Link, IconButton } from '@mui/material';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function Home() {
   const atRiskThreshold = 0.5;
@@ -16,9 +17,16 @@ export default function Home() {
     <main>
       <Container maxWidth="lg">
         <Box sx={{ my: 4 }}>
-          <Typography variant="h4" component="h1" gutterBottom>
-            Customer Churn Risk Dashboard
-          </Typography>
+          <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 2 }}>
+            <Typography variant="h4" component="h1">
+              Customer Churn Risk Dashboard
+            </Typography>
+            <Link href="https://github.com/Kevin-yyuan/customer_churn_risk_dashboard" target="_blank" rel="noopener noreferrer">
+              <IconButton aria-label="github repository">
+                <GitHubIcon sx={{ color: 'white' }} />
+              </IconButton>
+            </Link>
+          </Box>
 
           <Grid container spacing={3} sx={{ my: 4 }}>
             <Grid item xs={12} sm={4}>
